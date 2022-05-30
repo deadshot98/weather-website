@@ -1,12 +1,15 @@
 {
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e, -hbs, -css"
   },
   "dependencies": {
     "express": "^4.18.1",
     "hbs": "^4.2.0",
-    "nodemon": "^2.0.16",
     "path": "^0.12.7",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
